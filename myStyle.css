@@ -6,3 +6,30 @@ body{
   width:25%;
   float:right;
 }
+.navBar{
+  list-style-type: none;
+  padding : 0px;
+  margin : 0px;
+}
+.navBar li{
+  display : inline;
+  background-color : grey;
+}
+.navBar li:hover{
+  color: green;
+}
+  .navBar li a:hover{
+  color: green;
+}
+.navBarVert{
+  list-style-type: none;
+  padding : 0px;
+  margin : 0px;
+}
+.navBarVert li{
+  display : block;
+  background-color : grey;
+}
+.navBarVert li a:hover{
+  color: green;
+}
