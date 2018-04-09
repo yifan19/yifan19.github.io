@@ -1,35 +1,47 @@
 body{
   font-family: verdana;
 }
+h1{
+  text-align:center;
+}
+article{
+  border-color:black;
+  border-style:solid;
+  background-color: powderblue;
+  padding: 30px;
+  margin: 50px;
+}
+article p{
+  line-height:1.5;
+  text-indent:30px;
 .myFace{
   height:25%;
   width:25%;
   float:right;
 }
-.navBar{
+.navBar ul{
   list-style-type: none;
   padding : 0px;
   margin : 0px;
+  /*position: fixed;*/
+  background-color:grey;
+  width: 400px;
 }
 .navBar li{
-  display : inline;
-  background-color : grey;
+  display:inline;
+  width: 60px;
 }
-.navBar li:hover{
+.navBar li :hover{
+  background-color : black;
   color: green;
 }
-  .navBar li a:hover{
-  color: green;
-}
-.navBarVert{
+
+.navBarVert ul{
   list-style-type: none;
   padding : 0px;
   margin : 0px;
+  /*position: fixed;*/
+  background-color:grey;
+  width: 400px;
 }
-.navBarVert li{
-  display : block;
-  background-color : grey;
-}
-.navBarVert li a:hover{
-  color: green;
-}
+
