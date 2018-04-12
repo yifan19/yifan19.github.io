@@ -1,10 +1,11 @@
 body{
-  font-family: Courier New;
+  font-family:Helvetica;
 }
 h1{
   text-align:center;
 }
 article{
+  font-family: Courier New;
   border-color:black;
   border-style:solid;
   background-color: powderblue;
@@ -43,10 +44,14 @@ article p{
 
 .navBarVert ul{
   list-style-type: none;
+  display: block;
   padding : 0px;
   margin : 0px;
   /*position: fixed;*/
   background-color:grey;
-  width: 400px;
+  width: 120px;
 }
-
+.navBarVert li :hover{
+  background-color : black;
+  color: green;
+}
