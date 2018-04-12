@@ -1,5 +1,5 @@
 body{
-  font-family: verdana;
+  font-family: Courier New;
 }
 h1{
   text-align:center;
@@ -14,6 +14,10 @@ article{
 article p{
   line-height:1.5;
   text-indent:30px;
+}
+.dedicatedTo{
+  text-indent:0px;
+  font-family: Arial;
 }
 .myFace{
   height:25%;
