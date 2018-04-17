@@ -4,6 +4,10 @@ body{
 h1{
   text-align:center;
 }
+h2{
+  border-bottom: 4px solid black;
+  width: 50%;
+}
 article{
   font-family: Courier New;
   border-color:black;
@@ -29,7 +33,6 @@ article p{
   list-style-type: none;
   padding : 0px;
   margin : 0px;
-  /*position: fixed;*/
   background-color:grey;
   width: 450px;
 }
