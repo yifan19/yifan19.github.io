@@ -8,6 +8,9 @@ h2{
   border-bottom: 4px solid black;
   width: 50%;
 }
+h3{
+  color:blue;
+}
 article{
   font-family: Courier New;
   border-color:black;
