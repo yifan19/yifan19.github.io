@@ -58,3 +58,10 @@ article p{
   background-color : black;
   color: green;
 }
+.imageBox{
+  float :left;
+  width : 25%;
+}
+.contentBox{
+  height: 300px;
+}
